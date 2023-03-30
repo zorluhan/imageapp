@@ -41,8 +41,15 @@
 
     <script>
      
-      
-     const apiKey = process.env.API_KEY;
+     fetch('/api-key')
+  .then(response => response.text())
+  .then(apiKey => {
+    // Use the API key in your code
+    console.log(apiKey);
+  })
+  .catch(error => {
+    console.error(error);
+  });
 
 
       function generateCompletion() {
