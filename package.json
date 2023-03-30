@@ -25,5 +25,8 @@
     "http-server": "^14.1.1",
     "openai": "^3.2.1"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "dotenv-webpack": "^8.0.1"
+  }
 }
