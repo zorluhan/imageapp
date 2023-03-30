@@ -10,10 +10,11 @@ const port = process.env.PORT || 3000
 const http = require('http')
 const fs = require('fs')
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { 'content-type': 'text/html' })
-  fs.createReadStream('index.html').pipe(res)
-})
+app.use(express.static(__dirname + '/public'));
+
+app.get('*', function(req, res){
+  res.sendfile(__dirname + './index.html');
+});
  
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`)
