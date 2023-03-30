@@ -1,28 +1,17 @@
-const express = require('express')
-const app = express()
-const port = process.env.PORT || 3000
+const express = require('express');
+const app = express();
+const path = require('path');
 
-/* 
-    Incase you are using mongodb atlas database uncomment below line
-    and replace "mongoAtlasUri" with your mongodb atlas uri.
-*/
-// mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true})
-var http = require('http'),
-    fs = require('fs');
+// Serve static files from the public directory
+app.use(express.static(path.join(__dirname, 'public')));
 
-
-fs.readFile('./index.html', function (err, html) {
-    if (err) {
-        throw err; 
-    }       
-    http.createServer(function(request, response) {  
-        response.writeHeader(200, {"Content-Type": "text/html"});  
-        response.write(html);  
-        response.end();  
-    }).listen(8000);
+// Route for serving the index.html file
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
- 
-app.listen(port, () => {
-  console.log(`App listening at http://localhost:${port}`)
-})
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
