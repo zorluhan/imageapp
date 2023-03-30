@@ -41,11 +41,11 @@
 
     <script>
      
-     fetch('/api-key')
+  fetch('/api-key')
   .then(response => response.text())
   .then(apiKey => {
     // Use the API key in your code
-    console.log(apiKey);
+    const apiKey2= apiKey ; 
   })
   .catch(error => {
     console.error(error);
@@ -75,7 +75,7 @@
           headers: {
             "Content-Type": "application/json",
             Authorization:
-            `Bearer ${apiKey}`,
+            `Bearer ${apiKey2}`,
           },
           body: JSON.stringify(requestData),
         })
