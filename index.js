@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 require('dotenv').config();
+const apiKey = process.env.API_KEY;
 
  
 // Serve static files from the public directory
