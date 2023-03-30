@@ -1,0 +1,92 @@
+<html>
+  <body>
+    <label for="prompt1">Select a prompt 1:</label>
+    <select id="prompt1">
+      <option value="apple">Apple</option>
+      <option value="shoe">Shoe</option>
+      <option value="galatasaray">galatasaray</option>
+      <option value="dog">Dog</option>
+      <option value="turkish man">Turkish Man</option>
+      <option value="Labrador">Labrador</option>
+
+    </select>
+    
+    <label for="prompt2">Select a prompt 2:</label>
+    <select id="prompt2">
+      <option value="red">Red</option>
+      <option value="yellow">Yellow</option>
+      <option value="orange">Orange</option>
+      <option value="brown">Brown</option>
+      <option value="">Black</option>
+    </select>
+    
+    <label for="prompt3">Select a prompt 3:</label>
+    <select id="prompt3">
+      <option value="artsy">Artsy</option>
+      <option value="vintage">Vintage</option>
+      <option value="sketch">Sketch</option>
+      <option value="photo">Photo</option>
+      <option value="drawing">Drawing</option>
+    </select>
+
+    <!-- Add a submit button to trigger the API request -->
+    <button onclick="generateCompletion()">Submit</button>
+
+    <!-- Display the API response -->
+    <div id="response">
+      <h2>Response:</h2>
+
+      <div id="image-container"></div>
+    </div>
+
+    <script>
+      function generateCompletion() {
+        // Get the selected prompt values from the drop-down buttons
+        const promptValue1 = document.getElementById("prompt1").value;
+        const promptValue2 = document.getElementById("prompt2").value;
+        const promptValue3 = document.getElementById("prompt3").value;
+
+        // Combine the selected prompt values with a space in between
+        const prompt = `${promptValue1} and ${promptValue2} and ${promptValue3}`;
+
+        // Update the request parameters with the combined prompt
+        const requestData = {
+          prompt: `"using ${prompt} , create a surface design of a credit card. These images have to be on the surface of the card , not on the background or near the card.`,
+          model: "image-alpha-001",
+          n: 2,
+          size: "256x256",
+        };
+
+        // Send the HTTP request using fetch()
+        fetch("https://api.openai.com/v1/images/generations", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization:
+              "Bearer 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",
+          },
+          body: JSON.stringify(requestData),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            const responseText = document.getElementById("response-text");
+            const url = data.data[0].url;
+            displayImage(url);
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      }
+
+      function displayImage(imageUrl) {
+        // Create an image element and set its source to the generated image URL
+        const image = document.createElement("img");
+        image.src = imageUrl;
+
+        // Add the image element to the image container
+        const imageContainer = document.getElementById("image-container");
+        imageContainer.appendChild(image);
+      }
+    </script>
+  </body>
+</html>
