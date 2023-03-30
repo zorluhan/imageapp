@@ -40,8 +40,8 @@
     </div>
 
     <script>
-      require('dotenv').config();
-       const apiKey = process.env.API_KEY;
+     
+      
 
 
       function generateCompletion() {
@@ -60,7 +60,7 @@
           n: 2,
           size: "256x256",
         };
-
+        const apiKey = process.env.API_KEY;
         // Send the HTTP request using fetch()
         fetch("https://api.openai.com/v1/images/generations", {
           method: "POST",
