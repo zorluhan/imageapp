@@ -40,16 +40,7 @@
     </div>
 
     <script>
-     
- const apiKey2=  fetch('/api-key')
-  .then(response => response.text())
-  .then(apiKey => {
-    // Use the API key in your code
-    return apiKey ; 
-  })
-  .catch(error => {
-    console.error(error);
-  });
+   
 
 
       function generateCompletion() {
@@ -68,6 +59,10 @@
           n: 2,
           size: "256x256",
         };
+
+        fetch('/api-key')
+  .then(response => response.text())
+  .then(apiKey => {
         
         // Send the HTTP request using fetch()
         fetch("https://api.openai.com/v1/images/generations", {
@@ -88,6 +83,11 @@
           .catch((error) => {
             console.error(error);
           });
+        })
+  .catch(error => {
+    console.error(error);
+  });
+
       }
 
       function displayImage(imageUrl) {
