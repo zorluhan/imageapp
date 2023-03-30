@@ -1,0 +1,26 @@
+{
+  "name": "imageapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorluhan/imageapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "10.x"
+  },
+  "bugs": {
+    "url": "https://github.com/zorluhan/imageapp/issues"
+  },
+  "homepage": "https://github.com/zorluhan/imageapp#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
