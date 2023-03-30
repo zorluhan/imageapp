@@ -7,14 +7,21 @@ const port = process.env.PORT || 3000
     and replace "mongoAtlasUri" with your mongodb atlas uri.
 */
 // mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true})
-const http = require('http')
-const fs = require('fs')
+var http = require('http'),
+    fs = require('fs');
 
-app.use(express.static(__dirname + '/public'));
 
-app.get('*', function(req, res){
-  res.sendfile(__dirname + './index.html');
+fs.readFile('./index.html', function (err, html) {
+    if (err) {
+        throw err; 
+    }       
+    http.createServer(function(request, response) {  
+        response.writeHeader(200, {"Content-Type": "text/html"});  
+        response.write(html);  
+        response.end();  
+    }).listen(8000);
 });
+
  
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`)
