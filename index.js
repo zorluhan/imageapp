@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const apiKey = process.env.API_KEY;
+ 
+ 
 
 
 // Serve static files from the public directory
