@@ -1,106 +1,229 @@
+<!DOCTYPE html>
 <html>
-  <body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Card Design Generator</title>
+  <style>
+    /* Style the label and select elements */
+    label, select {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      font-family: sans-serif;
+      border: none;
+      border-bottom: 2px solid #ddd;
+      box-sizing: border-box;
+    }
+    
+    /* Style the select options */
+    option {
+      font-size: 16px;
+      font-family: sans-serif;
+    }
+    
+    /* Style the submit button */
+    button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      font-family: sans-serif;
+      border: none;
+      background-color: #4285F4;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    /* Style the image container */
+    #image-container {
+      margin-top: 24px;
+      text-align: center;
+    }
+    
+    /* Style the loading bar */
+    #loading-bar {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: #4285F4;
+    }
+    
+    #loading-bar.progress {
+      display: block;
+    }
+    
+    #loading-bar .progress-bar {
+      height: 100%;
+      background-color: #fff;
+      animation: loading-bar-progress 3s linear;
+    }
+    
+    @keyframes loading-bar-progress {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    
+    /* Style the response text */
+    #response {
+      margin-top: 24px;
+    }
+    
+    #response h2 {
+      font-size: 24px;
+      font-family: sans-serif;
+      margin-bottom: 12px;
+    }
+    
+    #response-text {
+      font-size: 16px;
+      font-family: sans-serif;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    
+    /* Media query for mobile devices */
+    @media screen and (max-width: 480px) {
+      label, select {
+        font-size: 14px;
+        padding: 8px;
+      }
+      
+      button {
+        font-size: 14px;
+        padding: 8px;
+      }
+      
+      #image-container {
+        margin-top: 16px;
+      }
+      
+      #response h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+      
+      #response-text {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div style="padding: 12px;">
     <label for="prompt1">Select a prompt 1:</label>
     <select id="prompt1">
       <option value="apple">Apple</option>
       <option value="shoe">Shoe</option>
-      <option value="galatasaray">galatasaray</option>
+      <option value="galatasaray">Galatasaray</option>
       <option value="dog">Dog</option>
       <option value="turkish man">Turkish Man</option>
       <option value="Labrador">Labrador</option>
+      </select>
 
-    </select>
-    
-    <label for="prompt2">Select a prompt 2:</label>
-    <select id="prompt2">
-      <option value="red">Red</option>
-      <option value="yellow">Yellow</option>
-      <option value="orange">Orange</option>
-      <option value="brown">Brown</option>
-      <option value="">Black</option>
-    </select>
-    
-    <label for="prompt3">Select a prompt 3:</label>
-    <select id="prompt3">
-      <option value="artsy">Artsy</option>
-      <option value="vintage">Vintage</option>
-      <option value="sketch">Sketch</option>
-      <option value="photo">Photo</option>
-      <option value="drawing">Drawing</option>
-    </select>
+      <label for="prompt2">Select a prompt 2:</label>
+<select id="prompt2">
+  <option value="red">Red</option>
+  <option value="yellow">Yellow</option>
+  <option value="orange">Orange</option>
+  <option value="brown">Brown</option>
+  <option value="black">Black</option>
+</select>
 
-    <!-- Add a submit button to trigger the API request -->
-    <button onclick="generateCompletion()">Submit</button>
+<label for="prompt3">Select a prompt 3:</label>
+<select id="prompt3">
+  <option value="artsy">Artsy</option>
+  <option value="vintage">Vintage</option>
+  <option value="sketch">Sketch</option>
+  <option value="photo">Photo</option>
+  <option value="drawing">Drawing</option>
+</select>
 
-    <!-- Display the API response -->
-    <div id="response">
-      <h2>Response:</h2>
+<!-- Add a loading bar -->
+<div id="loading-bar">
+  <div class="progress-bar"></div>
+</div>
 
-      <div id="image-container"></div>
-    </div>
+<!-- Add a submit button -->
+<button onclick="generateCompletion()">Submit</button>
 
-    <script>
-   
+<!-- Display the API response -->
+<div id="response">
+  <h2>Response:</h2>
 
+  <div id="image-container"></div>
+</div>
 
-      function generateCompletion() {
-        // Get the selected prompt values from the drop-down buttons
-        const promptValue1 = document.getElementById("prompt1").value;
-        const promptValue2 = document.getElementById("prompt2").value;
-        const promptValue3 = document.getElementById("prompt3").value;
+<script>
+  function generateCompletion() {
+    // Get the selected prompt values from the drop-down buttons
+    const promptValue1 = document.getElementById("prompt1").value;
+    const promptValue2 = document.getElementById("prompt2").value;
+    const promptValue3 = document.getElementById("prompt3").value;
 
-        // Combine the selected prompt values with a space in between
-        const prompt = `${promptValue1} and ${promptValue2} and ${promptValue3}`;
+    // Combine the selected prompt values with a space in between
+    const prompt = `${promptValue1} and ${promptValue2} and ${promptValue3}`;
 
-        // Update the request parameters with the combined prompt
-        const requestData = {
-          prompt: `"a credit card with  ${prompt} on it, create design on the surface of the credit card using these images. These images have to be on the surface of the card , not on the background or near the card.`,
-          model: "image-alpha-001",
-          n: 2,
-          size: "256x256",
-        };
+    // Update the request parameters with the combined prompt
+    const requestData = {
+      prompt: `"a credit card with  ${prompt} on it, create design on the surface of the credit card using these images. These images have to be on the surface of the card , not on the background or near the card.`,
+      model: "image-alpha-001",
+      n: 1,
+      size: "256x256",
+    };
 
-        fetch('/api-key')
-  .then(response => response.text())
-  .then(apiKey => {
-        
-        // Send the HTTP request using fetch()
-        fetch("https://api.openai.com/v1/images/generations", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization:
-            "Bearer "+apiKey,
-          },
-          body: JSON.stringify(requestData),
-        })
-          .then((response) => response.json())
-          .then((data) => {
-            const responseText = document.getElementById("response-text");
-            const url = data.data[0].url;
-            displayImage(url);
-          })
-          .catch((error) => {
-            console.error(error);
-          });
-        })
-  .catch(error => {
-    console.error(error);
-  });
+    // Show the loading bar
+    const loadingBar = document.getElementById("loading-bar");
+    loadingBar.classList.add("progress");
 
-      }
+    fetch('/api-key')
+    .then(response => response.text())
+    .then(apiKey => {
+      // Send the HTTP request using fetch()
+      fetch("https://api.openai.com/v1/images/generations", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: "Bearer " + apiKey,
+        },
+        body: JSON.stringify(requestData),
+      })
+      .then((response) => response.json())
+      .then((data) => {
+        // Hide the loading bar
+        loadingBar.classList.remove("progress");
 
-      function displayImage(imageUrl) {
-        // Create an image element and set its source to the generated image URL
-        const image = document.createElement("img");
-        image.src = imageUrl;
+        const responseText = document.getElementById("response-text");
+        const url = data.data[0].url;
+        displayImage(url);
+      })
+      .catch((error) => {
+        // Hide the loading bar and display an error message
+        loadingBar.classList.remove("progress");
 
-        // Add the image element to the image container
-        const imageContainer = document.getElementById("image-container");
-        imageContainer.appendChild(image);
-      }
-    </script>
+        console.error(error);
+        const responseText = document.getElementById("response-text");
+        responseText.innerText = "An error occurred: " + error.message;
+      });
+    })
+    .catch(error => {
+      // Hide the loading bar and display an error message
+      loadingBar.classList.remove("progress");
 
-    Test Page by: UM Adscience -- WAIT AFTER HITTING SUBMIT TO RETRIEVE THE IMAGE.
-  </body>
-</html>
+      console.error(error);
+      const responseText = document.getElementById("response-text");
+      responseText.innerText = "An error occurred: " + error.message;
+    });
+  }
+
+  function displayImage(imageUrl) {
+    // Create an image element and set its source to the generated image URL
+    const image = document.createElement("img");
+    image
