@@ -272,16 +272,17 @@
                 const promptElement = document.createElement("p");
                 promptElement.innerText = promptText;
                 imageContainer.appendChild(promptElement);
-                loadingBar.classList.remove("progress");
+               
               };
           
               // If the image fails to load, display an error message and hide the loading bar
               image.onerror = () => {
       const responseText = document.getElementById("response-text");
       responseText.innerText = "Failed to load image";
-      loadingBar.classList.remove("progress");
+    
     };
   }
+  loadingBar.classList.remove("progress");
 </script>
 
 
