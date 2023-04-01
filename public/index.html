@@ -244,7 +244,7 @@
     const promptValue3 = document.getElementById("prompt3").value;
 
     const prompt = `${promptValue1} and ${promptValue2} and ${promptValue3}`;
-    const promptText = `"a credit card with  ${prompt} on it, create design on the surface of the credit card using these images. These images have to be on the surface of the card , not on the background or near the card."`;
+    const promptText = `${prompt}`;
 
     const promptElement = document.createElement("p");
     promptElement.innerText = promptText;
