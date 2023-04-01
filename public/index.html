@@ -224,6 +224,37 @@
   }
 
   function displayImage(imageUrl) {
-    // Create an image element and set its source to the generated image URL
-    const image = document.createElement("img");
-    image
+  // Create an image element and set its source to the generated image URL
+  const image = document.createElement("img");
+  image.src = imageUrl;
+
+  // Show the loading bar while the image loads
+  const loadingBar = document.getElementById("loading-bar");
+  loadingBar.classList.add("progress");
+
+  // Once the image has loaded, add it to the image container and hide the loading bar
+  image.onload = () => {
+    const imageContainer = document.getElementById("image-container");
+    imageContainer.appendChild(image);
+    loadingBar.classList.remove("progress");
+
+    // Add a prompt under the image
+    const promptValue1 = document.getElementById("prompt1").value;
+    const promptValue2 = document.getElementById("prompt2").value;
+    const promptValue3 = document.getElementById("prompt3").value;
+
+    const prompt = `${promptValue1} and ${promptValue2} and ${promptValue3}`;
+    const promptText = `"a credit card with  ${prompt} on it, create design on the surface of the credit card using these images. These images have to be on the surface of the card , not on the background or near the card."`;
+
+    const promptElement = document.createElement("p");
+    promptElement.innerText = promptText;
+    imageContainer.appendChild(promptElement);
+  };
+
+  // If the image fails to load, display an error message and hide the loading bar
+  image.onerror = () => {
+    const responseText = document.getElementById("response-text");
+    responseText.innerText = "Failed to load image";
+    loadingBar.classList.remove("progress");
+  };
+}
