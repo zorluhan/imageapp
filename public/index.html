@@ -204,7 +204,10 @@
               const creditcard_image_url="https://seeklogo.com/images/M/Maximum_Card-logo-81283D450E-seeklogo.com.png"
               // Update the request parameters with the combined prompt
               const requestData = {
-                prompt: ` a ${promptValue2} credit card which has ${promptValue1} and a ${promptValue3} `,
+                prompt: ` Generate a credit card design. The design should incorporate the following inputs: 
+                - Color: ${promptValue2} 
+                - Pattern: ${promptValue1} 
+                - Dog Breed: ${promptValue3} `,
                 model: "image-alpha-001",
                 n: 1,
                 size: "512x512",
