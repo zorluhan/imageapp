@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+  <!DOCTYPE html>
+<html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UM CREDIT CARD GENERATOR</title>
@@ -16,9 +18,14 @@
         border: none;
         border-bottom: 2px solid #ddd;
         box-sizing: border-box;
+        margin-bottom: 16px;
       }
 css
 Copy code
+  label {
+    font-weight: bold;
+  }
+
   /* Style the select options */
   option {
     font-size: 16px;
@@ -36,6 +43,7 @@ Copy code
     background-color: #4285F4;
     color: #fff;
     cursor: pointer;
+    margin-top: 16px;
   }
 
   /* Style the image container */
@@ -120,60 +128,63 @@ Copy code
 </style>
   </head>
 
-      <body>
-      <h1 style="text-align: center; font-size: 32px; font-family: 'Roboto', sans-serif;">UM CREDIT CARD GENERATOR</h1>
-      <div style="padding: 12px;">
-        <label for="prompt1">Select Pattern:</label>
-        <select id="prompt1">
-          <option value="stripes">Stripes</option>
-          <option value="dots">Dots</option>
-          <option value="plaid">Plaid</option>
-          <option value="leather">Leather</option>
-          <option value="metallic">Metallic</option>
-          </select>
-    
-          <label for="prompt2">Select Color:</label>
-        <select id="prompt2">
-          <option value="red">Red</option>
-          <option value="blue">Blue</option>
-          <option value="green">Green</option>
-          <option value="yellow">Yellow</option>
-          <option value="purple">Purple</option>
-        </select>
-    
-        <label for="prompt3">Select a dog breed:</label>
-        <select id="prompt3">
-          <option value="affenpinscher">Affenpinscher</option>
-          <option value="akita">Akita</option>
-          <option value="beagle">Beagle</option>
-          <option value="chihuahua">Chihuahua</option>
-          <option value="dachshund">Dachshund</option>
-          <option value="english-bulldog">English Bulldog</option>
-          <option value="french-bulldog">French Bulldog</option>
-          <option value="german-shepherd">German Shepherd</option>
-          <option value="golden-retriever">Golden Retriever</option>
-          <option value="labrador-retriever">Labrador Retriever</option>
-          <option value="poodle">Poodle</option>
-          <option value="pug">Pug</option>
-          <option value="rottweiler">Rottweiler</option>
-          <option value="siberian-husky">Siberian Husky</option>
-          <option value="yorkshire-terrier">Yorkshire Terrier</option>
-        </select>
-    
-        <!-- Add a loading bar -->
-        <div id="loading-bar">
-          <div class="progress-bar"></div>
-        </div>
-    
-        <!-- Add a submit button -->
-        <button onclick="generateCompletion()">Submit</button>
-    
-        <!-- Display the API response -->
-        <div id="response">
-          <h2>Response:</h2>
-    
-          <div id="image-container"></div>
-        </div>
+  <body>
+    <h1 style="text-align: center; font-size: 32px; font-family: 'Roboto', sans-serif;">UM CREDIT CARD GENERATOR</h1>
+    <div style="padding: 12px;">
+      <label for="prompt1">Select Pattern:</label>
+      <select id="prompt1">
+        <option value="stripes">Stripes</option>
+        <option value="dots">Dots</option>
+        <option value="plaid">Plaid</option>
+        <option value="leather">Leather</option>
+        <option value="metallic">Metallic</option>
+      </select>
+php
+Copy code
+  <label for="prompt2">Select Color:</label>
+  <select id="prompt2">
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+    <option value="yellow">Yellow</option>
+    <option value="purple">Purple</option>
+  </select>
+
+  <label for="prompt3">Select a dog breed:</label>
+  <select id="prompt3">
+    <option value="affenpinscher">Affenpinscher</option>
+    <option value="akita">Akita</option>
+    <option value="beagle">Beagle</option>
+    <option value="chihuahua">Chihuahua</option>
+    <option value="dachshund">Dachshund</option>
+    <option value="english-bulldog">English Bulldog</option>
+    <option value="french-bulldog">French Bulldog</option>
+    <option value="german-shepherd">German Shepherd</option>
+    <option value="golden-retriever">Golden Retriever</option>
+    <option value="labrador-retriever">Labrador Retriever</option>
+    <option value="poodle">Poodle</option>
+    <option value="pug">Pug</option>
+    <option value="rottweiler">Rottweiler</option>
+    <option value="siberian-husky">Siberian Husky</option>
+    <option value="yorkshire-terrier">Yorkshire Terrier</option>
+  </select>
+
+  <!-- Add a loading bar -->
+  <div id="loading-bar">
+    <div class="progress-bar"></div>
+  </div>
+
+  <!-- Add a submit button -->
+  <button onclick="generateCompletion()">Submit</button>
+
+  <!-- Display the API response -->
+  <div id="response">
+    <h2>Response:</h2>
+
+    <div id="image-container"></div>
+  </div>
+</div>
+ 
 
         <script>
             function generateCompletion() {
