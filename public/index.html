@@ -183,10 +183,10 @@
           
               // Combine the selected prompt values with a space in between
               const prompt = `${promptValue1} and ${promptValue2} and ${promptValue3}`;
-          
+              const creditcard_image_url="https://seeklogo.com/images/M/Maximum_Card-logo-81283D450E-seeklogo.com.png"
               // Update the request parameters with the combined prompt
               const requestData = {
-                prompt: `Generate a credit card design that features ${prompt}. The design should be eye-catching and modern. Please create a unique design that stands out and would appeal to a wide range of customers.`,
+                prompt: `Create a credit card design for Maximum that features the bank's logo which can be found in the URL: ${creditcard_image_url} prominently on the card. The design should incorporate ${prompt} to create a modern and eye-catching look. Please make sure the design is in line with the bank's branding guidelines and would appeal to a wide range of customers `,
                 model: "image-alpha-001",
                 n: 1,
                 size: "256x256",
