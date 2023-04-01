@@ -69,7 +69,7 @@
   #loading-bar .progress-bar {
     height: 100%;
     background-color: #fff;
-    animation: loading-bar-progress 3s linear;
+    animation: loading-bar-progress 7s linear;
   }
 
   @keyframes loading-bar-progress {
@@ -196,7 +196,7 @@
               const creditcard_image_url="https://seeklogo.com/images/M/Maximum_Card-logo-81283D450E-seeklogo.com.png"
               // Update the request parameters with the combined prompt
               const requestData = {
-                prompt: `Generate a credit card design that features ${prompt}. The design should be eye-catching and modern. Please create a unique design that stands out and would appeal to a wide range of customers`,
+                prompt: `Generate a credit card design that features ${prompt}. The design should be eye-catching and modern. Please create a unique design that stands out and would appeal to a wide range of customers.`,
                 model: "image-alpha-001",
                 n: 1,
                 size: "256x256",
@@ -272,6 +272,8 @@
                 const promptElement = document.createElement("p");
                 promptElement.innerText = promptText;
                 imageContainer.appendChild(promptElement);
+                loadingBar.classList.remove("progress");
+
                
               };
           
@@ -279,10 +281,11 @@
               image.onerror = () => {
       const responseText = document.getElementById("response-text");
       responseText.innerText = "Failed to load image";
+      loadingBar.classList.remove("progress");
+
     
     };
   }
-  loadingBar.classList.remove("progress");
 </script>
 
 
