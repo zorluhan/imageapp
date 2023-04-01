@@ -259,7 +259,7 @@
               image.onload = () => {
                 const imageContainer = document.getElementById("image-container");
                 imageContainer.appendChild(image);
-                loadingBar.classList.remove("progress");
+                
           
                 // Add a prompt under the image
                 const promptValue1 = document.getElementById("prompt1").value;
@@ -272,6 +272,7 @@
                 const promptElement = document.createElement("p");
                 promptElement.innerText = promptText;
                 imageContainer.appendChild(promptElement);
+                loadingBar.classList.remove("progress");
               };
           
               // If the image fails to load, display an error message and hide the loading bar
