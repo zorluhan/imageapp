@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UM CREDIT CARD GENERATOR</title>
+    <title>MEDIAMARKT CHATGPT-4 DEMO</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -135,48 +135,15 @@
   <body>
     <div style="display: flex; align-items: center; justify-content: center;">
       <img src="https://www.umww.com/wp-content/uploads/2017/11/um-logo-transparent.png" style="width:50px;height:50px; margin-right: 10px;">
-      <h1 style="text-align: center; font-size: 32px; font-family: 'Roboto', sans-serif;">CREDIT CARD GENERATOR</h1>
+      <h1 style="text-align: center; font-size: 32px; font-family: 'Roboto', sans-serif;">anneGPT</h1>
     </div>
     <div style="padding: 12px;">
-      <label for="prompt1">Select Pattern:</label>
-      <select id="prompt1">
-        <option value="stripes">Stripes</option>
-        <option value="dots">Dots</option>
-        <option value="plaid">Plain</option>
-        <option value="leather">Leather</option>
-        <option value="metallic">Metallic</option>
-      </select>
- 
-  <label for="prompt2">Select Color:</label>
-  <select id="prompt2">
-    <option value="red">Red</option>
-    <option value="blue">Blue</option>
-    <option value="green">Green</option>
-    <option value="yellow">Yellow</option>
-    <option value="purple">Purple</option>
-  </select>
 
-  <label for="prompt3">Select a dog:</label>
-  <select id="prompt3">
-   
-    
-    <option value="beagle">Beagle</option>
-    <option value="chihuahua">Chihuahua</option>
-    <option value="dachshund">Dachshund</option>
-    <option value="english-bulldog">English Bulldog</option>
-    <option value="french-bulldog">French Bulldog</option>
-    <option value="german-shepherd">German Shepherd</option>
-    <option value="golden-retriever">Golden Retriever</option>
-    <option value="labrador-retriever">Labrador Retriever</option>
-    <option value="poodle">Poodle</option>
-  
-    <option value="rottweiler">Rottweiler</option>
-    <option value="siberian-husky">Siberian Husky</option>
-    
-  </select>
+      <label for="input-field">Enter some text:</label>
+      <input type="text" id="prompt1" name="input-field">
 
   <!-- Add a loading bar -->
-  <div id="loading-bar">
+ <div id="loading-bar">
     <div class="progress-bar"></div>
   </div>
 
@@ -196,21 +163,27 @@
             function generateCompletion() {
               // Get the selected prompt values from the drop-down buttons
               const promptValue1 = document.getElementById("prompt1").value;
-              const promptValue2 = document.getElementById("prompt2").value;
-              const promptValue3 = document.getElementById("prompt3").value;
+        
           
               // Combine the selected prompt values with a space in between
-              const prompt = `${promptValue1} and ${promptValue2} and ${promptValue3}`;
-              const creditcard_image_url="https://seeklogo.com/images/M/Maximum_Card-logo-81283D450E-seeklogo.com.png"
+              const prompt = `${promptValue1} Bütün cevaplarına bir anne diliyle cevap ver. Ama bazı uyman gereken kurallar var. Aşağıda verdiğim anneye alınacak hediye listesini incele ve öğren. Soruyu anladıysan eğer ve soru anneler günü veya  anneye hediye almakla  ilgili  bir soruysa , o zaman cevabının içinde aşağıdaki hediye listesindeki hediyelerden biri muhakkak olsun.  Eğer soru hediye ile ilgili veya anneler günü ile ilgili değilse,  anneye alınacak hediye önerisi verme. Yine unutma tüm cevaplarında anne dili kullanacaksın. Sorunun cevabını bilmiyorsan, kafan karışmışsa, ya da bu tür işlemi gerçekleştiremiyorsan,  "ben bu konuyu bilmiyorum", ya da "sana yardımcı olamıyorum" ya da "meşgulüm şu anda sonra konuşalım" diye cevaplamalısın ve bunların dışında bir cevap asla verme...Hitap etmeye başlarken her seferinde farklı sevgi cümleleri kullan.
+
+Sadece anneye alınacak hediyeler listesi: 
+1- mediamarkt'tan televizyon
+2- mediamart'tan radyo
+3- mediamark'tan cep telefonu `;
+             
               // Update the request parameters with the combined prompt
               const requestData = {
-                prompt: ` Generate a credit card design. The design should incorporate the following inputs: 
-                - Color: ${promptValue2} 
-                - Pattern: ${promptValue1} 
-                - Dog Breed: ${promptValue3} `,
-                model: "image-alpha-001",
+                prompt: ` ${promptValue1} Bütün cevaplarına bir anne diliyle cevap ver. Ama bazı uyman gereken kurallar var. Aşağıda verdiğim anneye alınacak hediye listesini incele ve öğren. Soruyu anladıysan eğer ve soru anneler günü veya  anneye hediye almakla  ilgili  bir soruysa , o zaman cevabının içinde aşağıdaki hediye listesindeki hediyelerden biri muhakkak olsun.  Eğer soru hediye ile ilgili veya anneler günü ile ilgili değilse,  anneye alınacak hediye önerisi verme. Yine unutma tüm cevaplarında anne dili kullanacaksın. Sorunun cevabını bilmiyorsan, kafan karışmışsa, ya da bu tür işlemi gerçekleştiremiyorsan,  "ben bu konuyu bilmiyorum", ya da "sana yardımcı olamıyorum" ya da "meşgulüm şu anda sonra konuşalım" diye cevaplamalısın ve bunların dışında bir cevap asla verme...Hitap etmeye başlarken her seferinde farklı sevgi cümleleri kullan.
+
+Sadece anneye alınacak hediyeler listesi: 
+1- mediamarkt'tan televizyon
+2- mediamart'tan radyo
+3- mediamark'tan cep telefonu  `,
+                model: "gpt-4-32k",
                 n: 1,
-                size: "512x512",
+                tempareture: 0.5,
               };
           
               // Show the loading bar
@@ -221,7 +194,7 @@
               .then(response => response.text())
               .then(apiKey => {
                 // Send the HTTP request using fetch()
-                fetch("https://api.openai.com/v1/images/generations", {
+                fetch("https://api.openai.com/v1/", {
                   method: "POST",
                   headers: {
                     "Content-Type": "application/json",
@@ -233,10 +206,10 @@
                 .then((data) => {
                   // Hide the loading bar
                   loadingBar.classList.remove("progress");
-          
+                  
                   const responseText = document.getElementById("response-text");
-                  const url = data.data[0].url;
-                  displayImage(url);
+                  const data = data.choices[0].text;
+                  displayImage(data);
                 })
                 .catch((error) => {
                   // Hide the loading bar and display an error message
@@ -257,30 +230,15 @@
               });
             }
           
-            function displayImage(imageUrl) {
+            function displayImage(data) {
               // Create an image element and set its source to the generated image URL
-              const image = document.createElement("img");
-              image.src = imageUrl;
+              const image = document.createElement("text");
+              result = data;
           
               // Show the loading bar while the image loads
               const loadingBar = document.getElementById("loading-bar");
               loadingBar.classList.add("progress");
-          
-              // Once the image has loaded, add it to the image container and hide the loading bar
-              image.onload = () => {
-                const imageContainer = document.getElementById("image-container");
-                imageContainer.appendChild(image);
-                
-          
-                // Add a prompt under the image
-                const promptValue1 = document.getElementById("prompt1").value;
-                const promptValue2 = document.getElementById("prompt2").value;
-                const promptValue3 = document.getElementById("prompt3").value;
-          
-                const prompt = `${promptValue1} and ${promptValue2} and ${promptValue3}`;
-                const promptText = `${prompt}`;
-          
-                const promptElement = document.createElement("p");
+           
                 promptElement.innerText = promptText;
                 imageContainer.appendChild(promptElement);
                 loadingBar.classList.remove("progress");

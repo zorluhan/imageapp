@@ -1,0 +1,213 @@
+ 
+ 
+Yatırım Finansman’da nasıl hesap açabilirim?
+Web sitemizde yer alan “Hesap Açılışı” butonuna tıklayıp “Anında Hesap Aç” sekmesinde yeni tip TC Kimlik kartınız ile YF YÜZYÜZE uygulamamız üzerinden görüntülü görüşme yaparak hesap açılış işlemlerinizi tamamlayabilir, yeni tip kimliğiniz bulunmuyor ise “Online Hesap Açılışı” sekmesi üzerinden hesap açılış işlemlerinizi başlatarak kurye ile size göndereceğimiz evrakları imzalayarak hesabınızı açabilirsiniz.
+YF YÜZYÜZE ile hesap açmak için burayı tıklayabilirsiniz.
+Online Hesap Açılışı ile hesap açmak istiyorsanız burayı tıklayabilirsiniz.
+Size en yakın Şube irtibat bilgilerimizi görmek isterseniz tıklayınız.
+ 
+Pay senedi işlemlerimi hangi kanallar aracılığıyla yapabilirim?
+Pay Senedi işlemlerinizi, Yatırım Finansman şubeleri, internet şube, YFTRADE, YFTRADEMOBILE uygulamalarımız ve diğer işlem platformları aracılığı ile yapabilirsiniz.
+İnternet Şubemizde Web-Kokpit uygulaması ile pay senedi alım satımı gibi tüm yatırım işlemlerini gerçekleştirebilirsiniz.
+ 
+Merkezi Kayıt Kuruluşu (MKK) sicil ve şifresi ne demektir? Nasıl kullanılır?
+MKK her yatırımcıya özel bir sicil numarası oluşturarak yatırımcıların farklı kurumlardaki hesaplarına ilişkin bilgilerini oluşturulan sicil numarası yardımıyla bir araya getirir ve yatırımcının portföyüne ilişkin hizmetler sunar. MKK Sicil şifrenizi kurumumuz aracılığıyla da temin edebilirsiniz. Şifrenin bloke edilmesi halinde 444 0 655 numaralı MKK çağrı merkezinden şifrenin tekrar kullanılır hale getirilmesi mümkündür.
+ 
+ 
+Yatırım hesabımdan gerçekleştirdiğim para transferleri için komisyon ödeyecek miyim?
+Sanal Şube ve YFTrade Mobil üzerinden yapılan EFT çıkışlarında masraf alınmamaktadır. Şubelerimizden yapılan transferlerde 20 TL’den başlamak üzere kademeli olarak masraf tahsil edilir. Sıkça kullandığınız banka/aracı kurum hesaplarınızı Sanal Şubemizden kayıt ederek , EFT işlemlerinizi masrafsız olarak anında gerçekleştirebilirsiniz. Masraflar tahsil edilirken + BSMV uygulanır. Detaylı bilgi için tıklayınız.
+ 
+Hesabımda atıl duran nakit nasıl değerlendiriliyor?
+Hesabınızda atıl duran nakit bakiyeniz başka bir talimatınız olmadığı takdirde otomatik olarak gecelik repo veya İş Portföy Para Piyasası Fonu’nda değerlendirilmektedir.
+ 
+ 
+Hesabıma nasıl para yatırabilirim?
+Yatırım Finansman’daki hesabınıza para aktarmak için aşağıdaki hesap numaralarımızdan birine, açıklama kısmına tam adınızı ve kurumumuzdaki hesap numaranızı yazarak EFT / Havale yapabilirsiniz.
+
+ 
+Hesabıma menkul kıymet virmanını nasıl yapabilirim?
+Hesabınızın bulunduğu banka ve aracı kuruma ileteceğiniz virman talimatında MKK nezdinde, Yatırım Finansman Menkul Değerler A.Ş.’nin YAT koduna isim ve hesap numaranızı belirterek gerçekleştirebilirsiniz.
+
+ 
+ 
+ 
+ 
+ 
+ 
+Pay Piyasası
+ 
+ 
+Pay senedi alım-satım işlemlerimi nasıl yapabilirim?
+Pay senedi alım-satım işlemi yapabilmek için Yatırım Finansman'da yatırım hesabınızın olması gerekir. Pay senedi alım-satım işlemlerinizi, internet şubesimiz veya emir iletim platformlarımız (YFTRADE, YFTRADEMOBILE, E-Broker aracılığıyla en hızlı şekilde Borsa İstanbul’a (BIST) iletebileceğiniz gibi, doğrudan Şubelerimizdeki müşteri temsilciniz aracılığıyla da iletebilirsiniz.
+İnternet Şubesi “Favoriler” ekranından ulaşabileceğiniz Web Kokpit uygulaması ile de pay senedi alım satım işlemlerinizi gerçekleştirebilirsiniz.
+ 
+Gün içinde verdiğim emirlerin durumunu nereden görebilirim?
+Kullanmakta olduğunuz online emir iletim platformu veya internet şubemizde bulunan "Pay Senedi" alt menüsündeki "Emir Takibi" seçeneğinden gün içinde verdiğiniz emirlerin durumunu görebilirsiniz.
+ 
+ 
+BIST seans saatleriyle ilgili bilgi alabilir miyim?
+Borsa İstanbul 30/11/2015 tarihi itibarıyla işlem platformunu BISTECH ortamına taşımış ve bu tarihten itibaren tek seans uygulamasına geçmiştir. İşlem saatlerinin detayına ulaşabilmek için tıklayınız.
+ 
+ 
+Açılış seansı nedir ve hangi aşamalardan oluşur?
+Açılış seansı, belirli bir zaman dilimi boyunca emirlerin herhangi bir eşleşme yapılmaksızın, BIST alım-satım sistemine kabul edildiği ve bu süre sonunda en yüksek miktarda işlemin gerçekleşmesini sağlayan tek bir fiyat seviyesinin (açılış fiyatı) hesaplanarak, tüm işlemlerin bu fiyat seviyesinden gerçekleştirildiği tek fiyat yöntemiyle çalışan özel bir seans uygulamasıdır.
+Açılış seansı süresince teorik işlem fiyatı ve teorik denge miktarını izleyebilmek mümkündür.
+Açılış seansı 2 aşamadan oluşur :
+* Emir Toplama: Bu süre zarfında emirler sisteme iletilir ve öncelik kurallarına göre sıralanır. Eşleştirme yapılmaz.
+* Açılış Fiyatının Belirlenmesi ve Açılış İşlemlerinin Gerçekleştirilmesi: Bu süre zarfında sistemde yer alan alış-satış emirleri üzerinden yapılan değerlendirme ile açılış fiyatı belirlenir ve fiyat-zaman önceliği açısından uygun durumda olan emirler, karşılığında yeterli miktarda emir bulunması şartıyla, açılış fiyatından işleme dönüşür.
+ 
+ 
+Kapanış seansı nedir ve hangi aşamalardan oluşur?
+Kapanış seansı, %3'lük kapanış seansı marjlarının geçerli olduğu normal seans sürecinden kalan tüm emirlerin aktarılması suretiyle, belirlenmiş zaman dilimi boyunca yeni emirlerin de herhangi bir eşleşme yapılmaksızın sisteme kabul edildiği ve bu süre sonunda en yüksek miktarda işlemin gerçekleşmesini sağlayan tek bir fiyat seviyesinin (Kapanış Seansı Fiyatı) hesaplanarak, tüm işlemlerin bu fiyat seviyesinden gerçekleştirildiği, tek fiyat yöntemiyle işlem yapılan seans bölümüdür.
+Borsa yatırım fonları, varantlar, sertifikalar ile temerrüt işlem sıraları ve yeni pay alma hakları kapanış seansına dahil değildir.
+Kapanış seansı aşamalarının süreleri ve saatleri aşağıdadır:
+* Emir toplama aşaması – (4 dakika, 18:01 – 18:05)
+* Fiyat belirleme ve kapanış seansı işlemleri aşaması – (2 dakika, 18:05 – 18:07)
+* Kapanış fiyatından/ tek fiyattan işlemler aşaması – (2 dakika, 18:08 – 18:10)
+ 
+ 
+Takas günü (T+2) bedelini yatırmak üzere işlem gününde (T) pay senedi alım talimatı verebilir miyim?
+Sermaye Piyasası Kurulu'nun Seri.V No.65 tebliğ'i gereğince bir müşterinin pay senedi alım işlemleri sonucunda, belirli bir anda oluşabilecek açık takas pozisyonunun asgari %20'si oranında net varlığının(özkaynağının) bulunması zorunludur.Takas günü alım bedellerinin getirilmesi kaydıyla bu kurala uygun alım yapılması mümkündür. Ayrıca yine takas yükümlülüğünüzü yerine getirmek kaydıyla, müşteri tanıma kuralları dahilinde hesabınızda özkaynak olmaksızın Yönetim Kurulumuz tarafından tahsis edilecek limit dahilinde alım yapabilmeniz mümkündür. Müşteriye özel tahsis edilen limitler için, hesabınızın bulunduğu şubeye başvurmanız gerekir.
+ 
+ 
+Açığa satışı nasıl yapabilirim?
+Açığa satış işlemleri; sahip olunmayan sermaye piyasası araçlarının fiyatının düşmesi beklentisiyle satılmasını ya da satışa ilişkin emrin verilmesini ifade eder.
+Açığa satış işlemi yapabilmesi için ilgili Yatırım Finansman Çerçeve Sözleşmesi’nin imzalanması gerekir. Açığa satış işlemlerinin başlangıcı ve devamında ilgili yasal düzenlemeler kapsamında belirlenen özkaynak oranlarını karşılayacak düzeyde teminat bulundurulması zorunludur.
+Açığa satış işlemi aynı gün içerisinde alım yoluyla kapatılmadığı takdirde ödünç menkul kıymet alınması suretiyle takas yükümlülüğünün yerine getirilmesi gerekir.
+Ödünç işlemi yapılabilmesi için Yatırım Finansman Çerçeve Sözleşmesi’nin imzalanmış olması gerekir. Ödünç işlemleri yapılabilmesi için ödünç veren tarafa ödünç alınan sermaye piyasası aracının piyasa değerinin BIST-30 dışında ödünce konu olabilecek paylar borsa yatırım fonu katılma belgeleri için %120, BIST-30 kapsamındaki paylar için %115 oranında nakit ve/veya %120 oranında nakit dışı teminat verilmesi zorunludur.
+Ödünç işlemleri piyasa koşullarına istinaden oluşan oranlar üzerinden gerçekleştirilir. Ödünç veren taraf olarak sahip olduğunuz pay senetlerini ödünç vermek suretiyle komisyon geliri elde etmeniz mümkündür.
+ 
+ 
+ 
+Pay senetlerimi ödünç verebilir miyim?
+Pay senetlerinizi ödünç vermek için yatırım hesabınızın bulunduğu şubemize başvurarak gerekli sözleşmeleri imzalamanız yeterlidir. Yatırım hesabınızdaki pay senetlerinizi, ödünç almak isteyen yatırımcılara şirketimiz aracılığıyla ve Takasbank güvencesinde belirli bir süreyle ödünç olarak verilir. Belirlenen süre sonunda hem pay senetleriniz hem de ödünç komisyonunuz hesabınıza aktarılır. Bu süre içinde doğan bedelli/bedelsiz pay senedi ya da temettü gibi haklar, ödünç veren olarak yine size ait olmaya devam eder.
+ 
+ 
+Zincir emir ve şartlı (koşullu ) emir nedir?
+Yatırım Finansman'da isterseniz Borsa’ya iletilmiş ve pasif konumda bekleyen bir emrinize zincir emir ve /veya emirler bağlayabileceğiniz gibi gerçekleşmesi bir şarta bağlı olan emir hazırlayabilirsiniz.
+Zincir Emir, sisteme girilmiş ve pasif olarak Borsa’da bekleyen birbirine bağlı emirler oluşturularak, bu emirleri zincir halinde gerçekleşmesi amacıyla kurulmuş bir sistemdir.
+Şartlı emir ise belirli koşullara göre verilen emirler olup ancak bu koşullar gerçekleştiği anda etkin bir emir olarak, BIST'ye iletilmektedir. Örneğin emrinizi endeksin belirlediğiniz bir değere gelmesi ya da başka bir pay senedinin belirlediğiniz fiyattan işlem görmeye başlaması şartına bağlı olarak oluşturabilrisiniz.
+Borsada işlem gören şirketlerin sermaye artırımı ve temettü ödemelerinden nasıl yararlanabilirim?
+Borsa'da işlem gören şirketlerin, bedelsiz sermaye arttırımı ve temettü ödemeleri kurumumuz tarafından otomatik olarak yapılır. Bedelli sermaye artırımlarında ise, sermaye artırımına katılmak lehinize ise, işlemler yatırım hesabı sözleşmenizin ilgili maddesinde de belirtildiği üzere tarafımızdan gerçekleştirilir. Bu işlemlerin yanı sıra, sermaye artırımı ve temettü ödemelerinden faydalanmak isteyip istemediğinizi yazılı olarak da bize bildirebilirsiniz.
+ 
+ 
+Rüçhan hakkı kuponları ile ilgili bilmem gereken gereken hususlar nelerdir?
+Rüçhan Hakkı (Yeni Pay Alma Hakkı), ortaklıkların bedelli sermaye artırımına mevcut ortakların öncelikle katılma hakkıdır. Rüçhan hakkı kullanım süresi en az 15, en çok 60 gündür. Rüçhan hakkı kuponları, BIST Rüçhan Hakkı Kupon Pazarı'nda alınıp satılabilir. Bedelli sermaye artırımına katılmak istemeyen yatırımcılar sahip oldukları pay senetlerinin sağladığı bir hak olan Rüçhan Hakkını temsil eden kuponları yukarda bahsi geçen pazarda satabilmektedirler.
+Rüçhan hakkı kuponu almak ya da bu pazarda al-sat yapmak istiyorsanız, aşağıdaki konulara dikkat etmeleri gerekir.
+Satın alınan rüçhan hakkı kuponunun dönüşeceği pay senedinin piyasa fiyatı 1TL nin altında ise (bu nominal değerin altında bir fiyat demek oluyor) sermaye artırımına katılmak yatırımcının zararına olur.
+Rüçhan hakkı alınırken ödenen bedel ile bedelli sermaye artırımına katılım tutarı toplamının, bedelli sermaye artırımı sonrası elde edilecek pay senetlerinin piyasa değerinden büyük olması halinde yapılan yatırım zararlı olur.
+Son işlem gününden önce satış yapmayıp portföyünde rüçhan hakkı kuponu kalan yatırımcılar sermaye artırımına katılacak paraları olmaz ise zarar ederler.
+Rüçhan hakkı kuponları bedelli sermaye artırım oranına bağlı olarak belirli adette payye dönüşür. Örneğin herhangi bir pay senedi %50 bedelli sermaye artırımı yapmış ve bedelli kullanım fiyatı 1TL ise bu pay senedine bağlı rüçhan hakkı kuponlarından 100 lot alan bir yatırımcı, sermaye artırımına katılım sonrası 50 lot pay senedine sahip olur. Oluşan bu 50 lot pay senedinin maliyeti ise, 100 lot rüçhan hakkını aldığı zaman ödediği tutar ile sermaye artırımına katılmak için ödediği tutarın toplamı olur.
+Rüçhan hakkı tahtaları belirli süreler için açık kaldığı için, herhangi bir tahtada al-sat yapmak isteyen yatırımcı almış olduğu rüçhan hakkı kuponunun satışını gerçekleştirebilmek için son işlem gününü iyi takip etmesi gerekir.
+Son işlem gününde rüçhan hakkı tahtasında yeterli alıcı olmayabileceği için ilgili rüçhan hakkı tahtası açık olsa bile satış yapamayabileceklerini de her zaman gözönünde bulundurmaları gerekir.
+Rüçhan Kuponu tahtaları normal seans saatleri içerisinde işlem görür.
+ 
+Vadeli İşlem Ve Opsiyon Piyasası (VIOP)
+ 
+ 
+Vadeli işlem ve opsiyon piyasasında (VIOP) takas şekli nasıldır?
+Endeks, döviz, kıymetli madenlere dayalı vadeli işlem sözleşmelerinde takas nakit uzlaşı şeklinde yapılırken , Paya dayalı Vadeli İşlem Sözleşmelerinde ve Buğdaya dayalı vadeli işlem sözleşmelerinde takas fiziki teslimat yolu ile yapılır.
+Opsiyon sözleşmelerinde ise BIST 30 endeksine ve USD/TRY’ye dayalı opsiyon sözleşmelerinin takasları nakit uzlaşı şeklinde yapılırken, paya dayalı opsiyon sözleşmelerinin takası fiziki teslimat yolu ile yapılır.
+ 
+ 
+Vadeli işlem ve opsiyon sözleşmelerinde takas süreleri nasıldır?
+Takası fiziki teslimat şeklinde olan pay vadeli ve opsiyon sözleşmelerinde takas T+3 günü gerçekleşir.
+Ayrıca yine takası fiziki teslimat yolu ile yapılan buğday sözleşmelerinde takas günü T+5’tir.
+Nakit uzlaşı yolu ile takası gerçekleştirilen BİST 30 endeksi, döviz, değerli maden, enerji ve metallere dayalı Vadeli İşlem Sözleşmeleri yanı sıra BİST 30 endeksine ve dolara dayalı opsiyon sözleşmelerinin takas günü T+1’dir.
+ 
+ 
+Vadeli İşlem Sözleşmelerinde kar /zarar hesaba ne zaman yansıtılır?
+Vadeli işlem sözleşmelerinde zarar T+0’da gün sonu hesaplara yansırken , karlar T+1 gününde hesaplara yansıtılır. Opsiyonlarda ise ödenen primler T+0 günü hesaba yansırken , alınan primler T+1 günü hesaba yansır.
+ 
+Başlangıç Teminatı nedir? Sürdürme teminatı nedir?
+Başlangıç teminatı vadeli işlem ve opsiyon piyasasında pozisyon açmak için gerekli minimum teminat tutarıdır. Yatırımcının hesabında yeterli teminat bulunmaması durumunda yatırımcı pozisyon açamaz.
+Sürdürme teminatı ise yatırımcının pozisyonunu devam ettirmesi için gereken minimum tutardır. Sürdürme teminatı başlangıç teminatını %100’dür.
+ 
+ 
+ 
+ 
+Başlangıç Teminatları hangi temellere göre hesaplanır?
+Hem vadeli işlem hem opsiyon sözleşmelerinde başlangıç teminatı Takasbank tarafında Standart Porfolio Analysis yani SPAN algoritması ile hesaplanır. Bu açıdan vadeli işlem sözleşmelerinde başlangıç teminatları piyasada oluşan fiyatlara göre belli aralıklarla güncellenirken, opsiyon sözleşmelerinin başlangıç teminatları her gün için hesaplanır.
+ 
+ 
+Hesapta teminat miktarı sürdürme teminatının aşağısına gerilemesi durumunda ne yapılması gerekir?
+Sürdürme teminatı başlangıç teminatının %100’dir. Teminat, sürdürme teminatının altına düşerse , T+0 günü en az sürdürme teminatına tamamlanmalıdır. T+0 günü teminatın en az sürdürme teminatına tamamlanmaması durumunda yani T+1 gününe taşınması durumunda ise T+1 günü en geç saat 14:30 da teminatın başlangıç teminatına teminat yatırarak ya da pozisyon kapatarak tamamlanması zorunludur.
+ 
+VİOP’ta hangi tür opsiyonlar işlem görür?
+Borsa İstanbul VİOP'ta Avrupa tipi yani opsiyonu satın alan tarafın hakkını ancak vade sonunda kullanabildiği opsiyon tipleri işlem görmektedir.Amerikan tipi opsiyon şu an işlem görmemektedir.
+Menkul Kıymet Kredisi
+ 
+ 
+Menkul kıymet kredisi nedir?
+Menkul kıymet kredisi, ilgili yasal düzenlemeler çerçevesinde belirli bir özkaynak karşılığında pay senedi alımında kullanılmak üzere sağlanan kredidir.
+ 
+Menkul kıymet kredisini nasıl kullanabilirim?
+Menkul kıymet kredisinden yararlanmak için Şubelerimize başvuru yapılması ve ilgili Çerçeve Sözleşmesinin imzalanması gerekir. SPK düzenlemelerine istinaden değerlemesi yapılmış özkaynak tutarınız kadar kredi talebinde bulunması mümkündür.
+ 
+Menkul kıymet kredisi kullanma koşulları nelerdir?
+Alt limit 10.000 TL olmak üzere tüm menkul kıymet kredisi talepleri Kurumumuz Kredi Komitesi tarafından değerlendirilerek onaylanır. Kredi açılışında başlangıç özkaynak oranı minimum %50’dir. SPK’nın Kredili Alım, Açığa Satış ve Ödünç Alma ve Verme İşlemleri Hakkında Tebliği uyarınca Yıldız Pazar ve Ana Pazar dışındaki paylar kredili işleme konu edilemez. Kurumumuz, krediye konu pay senetleri listesini piyasa şartı koşullarına göre değiştirme hakkına sahiptir.
+ 
+ 
+Kredi işleminde özkaynak hesaplaması kriteri nedir? Nasıl hesaplanır?
+SPK tebliği uyarınca kredi özkaynağı; kredili alıma konu hisse senedi cari piyasa değeri ile kredi teminatına konu menkullerin kurum veya borsa teminat oranları üzerinden değerlerinin toplanması ile hesaplanır.
+ 
+ 
+ 
+Açığa satış ve ödünç menkul kıymet işlemi nedir? Nasıl yapılır?
+Açığa satış işlemleri; sahip olunmayan sermaye piyasası araçlarının fiyatının düşmesi beklentisiyle satılmasını ya da satışa ilişkin emrin verilmesini ifade eder.
+Açığa satış işlemi yapabilmesi için ilgili çerçeve sözleşmesinin imzalanması gerekir. Açığa satış işlemlerinin başlangıcı ve devamında ilgili SPK düzenlemeleri kapsamında belirlenen özkaynak oranlarını karşılayacak düzeyde teminat bulundurulması zorunludur.
+Açığa satış işlemi aynı gün içerisinde alım yoluyla kapatılmadığı takdirde ödünç menkul kıymet alınması suretiyle takas yükümlülüğünün yerine getirilmesi gerekir.
+Ödünç işlemi yapılabilmesi için çerçeve sözleşmesinin imzalanmış olması gerekir.Ödünç işlemleri yapılabilmesi için ödünç veren tarafa ödünç alınan sermaye piyasası aracının piyasa değerinin BIST-30 dışında ödünce konu olabilecek paylar borsa yatırım fonu katılma belgeleri için %120, BIST-30 kapsamındaki paylar için %115 oranında nakit ve/veya %120 oranında nakit dışı teminat verilmesi zorunludur.
+Ödünç işleminde, hisse senetlerinin mülkiyeti değişmez; ödünç süresi içinde doğan rüçhan hakkı ya da temettü gibi tüm haklar ödünç verene aittir.
+Ödünç işlemleri piyasa koşullarına istinaden oluşan oranlar üzerinden gerçekleştirilir. Ödünç veren taraf olarak sahip olduğunuz pay senetlerini ödünç vermek suretiyle komisyon geliri elde etmeniz mümkündür.
+ 
+Bireysel Portföy Yönetimi
+ 
+ 
+ 
+Bireysel Portföy Yönetimi’nin tercih edilmesinin sağlayacağı faydalar nelerdir?
+Portföyünüzü yönetmek için yeterli zamana sahip değilseniz, piyasada oluşan fırsatlardan faydalanmak ve getiri potansiyelinizi arttırmak istiyorsanız Bireysel Portföy Yönetimi’ni tercih etmenizi tavsiye ederiz.
+Bireysel portföy yönetiminde; konusunda uzman ve deneyimli kadrosu ile risk- getiri beklentinize paralel ve küresel piyasalardaki tüm finansal ürünlerden tercihiniz doğrultusunda faydalanma imkanı sunulur.
+ 
+Bireysel Portföy Yönetimi hizmetinden nasıl yararlanabilirim?
+Bireysel Portföy Yönetimi Sözleşmesinin imzalanması ve hesap açılışıyla ilgili evrakın tamamlanmasıyla beraber portföy yönetimi hesabınız açılır.
+Uygulayacağımız yerindelik testi ile risk algınız belirlenir. Bu doğrultuda size uygun portföy yönetim stratejisi oluşturulur. Belirlenen enstrüman ve limitler dahilinde portföyünüz yönetilir.
+ 
+ 
+Bireysel Portföy Yönetimi hizmetleriniz nelerdir?
+Size uygulayacağımız yerindelik testi sonucuna göre ;
+Çok düşük riskli yatırımcı iseniz ; bankalardan aldığımız en rekabetçi oranlarla mevduat ve SWAP işlemlerine aracılık edebiliyoruz.
+Düşük riskli yatırımcı iseniz ; özel sektör tahvil ve mevduat içerikli bir portföy yapısı oluşturabiliyoruz.
+Yüksek riskli yatırımcı iseniz ; yüksek oranlı pay senedi , vadeli işlem ve opsiyon ile düşük oranlı özel sektör tahvili ve mevduat içerikli bir portföy yapısı oluşturabiliyoruz.
+ 
+Bireysel portföy yönetimi için uyguladığınız alt limit var mıdır?
+Evet. Mevduat ve Swap işlemleri için alt limit 250.000 TL, diğer düşük ve yüksek risk içeren Portföy gruplarımız için asgari 200.000 TL limit uygulanır.
+ 
+ 
+Bireysel portföy yönetiminde uygulanan ücretler nelerdir?
+Yönetim ve Performans ücretleri uygulanır. Mevduat ve Swap işlemlerinde yıllık binde 6 yönetim ücreti tahsil edilir. Performans ücreti alınmaz.
+Düşük ve yüksek risk içeren portföy gruplarından yıllık binde 4-7,5 arasında değişen yönetim ücreti ve kıstas getirinin üzerinde kalan getiriden de %10-15 arasında değişen performans ücreti tahsil edilir.
+Bireysel portföy yönetimi hesabımı nasıl takip edebilirim?
+İnternet ve mobil uygulamalarıyla portföyünüzü günlük olarak takip edebilirsiniz. Dönemsel olarak ve talebiniz üzerine istediğiniz zaman da portföyünüzün performans raporu bağlı olduğunuz şube tarafından gönderilir.
+ 
+ 
+ 
+Bireysel portföy yönetiminde giriş ve çıkışlarda tarih kısıtları var mıdır?
+Girişlerde herhangi bir tarih kısıtımız bulunmamaktadır.
+Çıkışlarda ; pay senedi içeren portföy gruplarında en az 2 gün öncesinde, özel sektör tahvil içeren portföy gruplarında ise en az 1 hafta öncesinde tarafımıza talebin iletilmesi gerekir.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
